@@ -21,6 +21,10 @@ Reading a line on a file descriptor is way too tedious. The aim of this project 
 ### Executing
 
 * Clone/download the repository
+    * git clone --recursive (url)
 * cd src/
-* Compile the library
+* Compile with main.c:
+    * gcc get_next_line.c main.c
 * Run program:
+    * ./a.out (some test)
+    
