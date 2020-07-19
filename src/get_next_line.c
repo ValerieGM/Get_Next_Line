@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgongora <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/05 08:57:25 by vgongora          #+#    #+#             */
-/*   Updated: 2018/06/22 13:52:06 by vgongora         ###   ########.fr       */
+/*   Updated: 2020/07/19 18:46:36 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../headers/get_next_line.h"
 
 int		newl(const int fd, char **line, char **str)
 {

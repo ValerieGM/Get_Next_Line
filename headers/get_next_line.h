@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vgongora <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: vgongora <vgongora@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/05 08:59:27 by vgongora          #+#    #+#             */
-/*   Updated: 2018/06/22 11:06:09 by vgongora         ###   ########.fr       */
+/*   Updated: 2020/07/19 18:47:02 by vgongora         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # define BUFF_SIZE 3
 
 # include <fcntl.h>
-# include "libft/libft.h"
+# include "../libft/libft.h"
 
 int		get_next_line(const int fd, char **line);
 
